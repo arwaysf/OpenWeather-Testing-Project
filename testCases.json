@@ -1,0 +1,144 @@
+{
+	"item": [
+		{
+			"name": "API_06",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}?access_key={{API_KEY}}&query=NewYork&units=metric",
+					"host": [
+						"{{baseURL}}"
+					],
+					"query": [
+						{
+							"key": "access_key",
+							"value": "{{API_KEY}}"
+						},
+						{
+							"key": "query",
+							"value": "NewYork"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API_07",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}?access_key={{API_KEY}}&query=Tokyo&forecast_days=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"query": [
+						{
+							"key": "access_key",
+							"value": "{{API_KEY}}"
+						},
+						{
+							"key": "query",
+							"value": "Tokyo"
+						},
+						{
+							"key": "forecast_days",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API_08",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}?access_key={{API_KEY}}&query=Dubai&language=es",
+					"host": [
+						"{{baseURL}}"
+					],
+					"query": [
+						{
+							"key": "access_key",
+							"value": "{{API_KEY}}"
+						},
+						{
+							"key": "query",
+							"value": "Dubai"
+						},
+						{
+							"key": "language",
+							"value": "es"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API_09",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}?access_key={{API_KEY}}&query=Berlin&hourly=1",
+					"host": [
+						"{{baseURL}}"
+					],
+					"query": [
+						{
+							"key": "access_key",
+							"value": "{{API_KEY}}"
+						},
+						{
+							"key": "query",
+							"value": "Berlin"
+						},
+						{
+							"key": "hourly",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API_10",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}?access_key={{API_KEY}}&query=Mumbai&alerts=yes",
+					"host": [
+						"{{baseURL}}"
+					],
+					"query": [
+						{
+							"key": "access_key",
+							"value": "{{API_KEY}}"
+						},
+						{
+							"key": "query",
+							"value": "Mumbai"
+						},
+						{
+							"key": "alerts",
+							"value": "yes"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
