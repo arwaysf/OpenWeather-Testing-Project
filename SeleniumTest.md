@@ -17,7 +17,7 @@
 
    **Then**: An error message is be displayed showing an invalid login.
 
-### Search Functionality
+### Submitting a form Functionality
 1. **Test Case 1** Submitting a Question in the "Contact us" Form
 
    **Given**: the user is on the “Contact Us” page.
